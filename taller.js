@@ -10,7 +10,7 @@ const server = http.createServer((req,res)=>{
 
     if(url === '/'){
         res.write('<html>');
-        res.write('<head><title>HOME</title></head>');
+        res.write(`<head><title>HOME</title>${s}</head>`);
         res.write(`<body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -55,7 +55,7 @@ const server = http.createServer((req,res)=>{
         res.write(`<head>`);
         res.write(`<meta charset="UTF-8">`);
         res.write(`<title></title>`);
-        res.write(`${s}`);
+        
         res.write(`</head>`);
 
         res.write(`<body>`);
