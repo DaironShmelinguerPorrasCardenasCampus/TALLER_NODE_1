@@ -737,7 +737,7 @@ const server = http.createServer((req,res)=>{
 
           res.write('<html>');
           res.write(`<meta charset="UTF-8">`);
-          res.write(`<head><title>SALES</title>${s}</head>`);
+          res.write(`<head><title>SHOPING</title>${s}</head>`);
           res.write(`<body>
           <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
